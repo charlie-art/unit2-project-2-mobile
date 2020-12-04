@@ -251,11 +251,6 @@ margin: 25px;
 
 
 
-
-
-
-
-
 /* =====================================
 Media Queries
 ======================================*/
@@ -389,7 +384,7 @@ img:hover{
 
  .project:nth-child(1   ),
  .project:nth-child(5) {
-    margin-right: 20px;
+    margin-right: 45px;
  }
 
  .project {
@@ -421,6 +416,6 @@ img:hover{
 }
 
 .contact-container{
-    max-width: 50%;
+    max-width: 25%;
 }
 }
