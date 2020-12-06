@@ -1,17 +1,26 @@
 * {
-font-family: 'Roboto', sans-serif;
+font-family: "Sofia", sans-serif;
 text-align: center;
 color: black;
 }
 
 
-body {
-    padding: 5%;
-}
 
 img {
     max-width: 100%;
 
+}
+
+body {
+    padding: 5%;
+}
+
+
+li {
+list-style: none;
+font-weight: 700;
+text-transform: uppercase;
+padding: 15px;
 }
 
 
@@ -32,6 +41,11 @@ h3 {
     font-weight: 600;
 }
 
+h2 {
+text-transform: uppercase;
+margin: 16px 0;
+}
+
 
 #top {
     text-transform: uppercase;
@@ -39,28 +53,15 @@ h3 {
 
 
 .top{
-  margin: 16px 0;
+margin: 16px 0; 
 
 }
-
-
-li {
-list-style: none;
-font-weight: 700;
-text-transform: uppercase;
-padding: 15px;
-}
-
-
-
-
-
-
 
 
 
 a{
     text-decoration: none;
+    padding-top: 15px;
 }
 
 
@@ -109,24 +110,21 @@ padding: 40px;
     font-weight: 700;
 }
 
-footer{
-        display: flex;
+footer {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-weight: 700;
-    border-top: solid slategrey 2px;
-    margin-top: 100px;
-
+    border-top: solid slatgrey top;
 }
 
 .section-1 {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 50px;
+    justify-content: center;
 }
 
 .profile-pic {
-    padding-top: 0;
     width: 44%;
     height: 100%;
 }
@@ -153,6 +151,7 @@ footer{
 
 .project {
         padding-bottom: 25px;
+        padding-right: 25px;
    
 }
 
@@ -163,7 +162,7 @@ footer{
 
 
 .project:nth-child(even) {
-    margin-right: 7%;
+    margin-right: 0%;
 }
 
 .project img{
@@ -177,15 +176,14 @@ footer{
 }
 
 .contact-container {
-     max-width: 75%;
+     max-width: 90%;
      margin: auto;
     }
 
     .contact-text {
      margin-bottom: 50px;
      
-
- }
+}
 
 
 .top {
@@ -211,7 +209,7 @@ footer{
 .nav {
      width: 335px;
     margin: auto;
-    display: flex;
+    justify-content: center;
  }
 
  
@@ -222,26 +220,6 @@ footer{
  
 
 
-
-
-
-.nav-footer{
-    display: none;
-    }
-
-.main-nav {
-float: right;
-margin: 25px;
-}
-
-.main-nav li {
-    float: left;
-}
-
-
-.nav-footer {
-    display: none;
-}
 
 
 
@@ -256,10 +234,13 @@ Media Queries
 ======================================*/
 
 @media screen and (min-width:768px) {
+
+   * {
+       background: pink;
+   }
  
  .nav{
      width: 335px;
-     display: flex;
      margin: initial;
      align-items: center;
  }
@@ -279,7 +260,7 @@ Media Queries
  .profile-pic{
      padding-top: 0;
      width: 44%;
-     height: 100%;
+     height: auto;
  }
   .bio {
      width: 53%;
@@ -292,7 +273,6 @@ Media Queries
  .project {
      float: left;
     width: 45%;
-    margin: auto;    
 }
 
 
@@ -309,7 +289,7 @@ Media Queries
  }
 
  .contact-container {
-     max-width: 75%;
+     max-width: 90%;
      margin: auto;
  }
 

@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map>">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
@@ -16,7 +16,7 @@
 <body>
     <header>
 
-        <h1 id="top" class="title">Charlie Alton</h1>
+        <h1 id="top">Charlie Alton</h1>
         <nav>
 
             <ul class="nav">
@@ -29,11 +29,10 @@
     </header>
 
 
-
+    <img class="profile-pic" src="Images/responsive-layout-profile.png" alt="profile pic">
 
     <div class="section-1">
 
-        <img class="profile-pic" src="Images/responsive-layout-profile.png" alt="profile pic">
 
         <p class="bio">
             Hi Im a tech degree student who is learning how to code.
@@ -96,7 +95,7 @@
 
 
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
         <h2>Contact</h2>
         <p class="contact-text">
             If you're interested in chatting or want more information about what I've been working on, I'd love to hear
@@ -104,9 +103,9 @@
             you.
         </p>
 
-        <p>Phone <span class="contact-info"> +1(555)555-1234</span></p>
+        <p>Phone <a href="#"> <span class="contact-info"> +1(555)555-1234</span></a></p>
 
-        <p>Email <span class="contact-info"> charlie_alton123@hotmail.com</span></p>
+        <p>Email <a href="#"><span class="contact-info"> charlie_alton123@hotmail.com</span></a></p>
 
     </div>
 
@@ -117,14 +116,8 @@
         <p class="name">Charlie Alton</p>
 
 
-
-
-        <ul class="main-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-
+        <a href="#top" class=".top">
+            Back to top </a>
 
     </footer>
 </body>
