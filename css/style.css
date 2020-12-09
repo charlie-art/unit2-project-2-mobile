@@ -1,3 +1,5 @@
+@media screen and (min-width:320px){
+
 * {
 font-family: "Sofia", sans-serif;
 text-align: center;
@@ -18,7 +20,7 @@ body {
 
 li {
 list-style: none;
-font-weight: 700;
+font-weight: 600;
 text-transform: uppercase;
 padding: 15px;
 }
@@ -47,7 +49,7 @@ margin: 16px 0;
 }
 
 
-#top {
+#top-text {
     text-transform: uppercase;
 }
 
@@ -119,13 +121,12 @@ footer {
 }
 
 .section-1 {
-    display: flex;
+    display: contents;
     flex-direction: row-reverse;
-    justify-content: center;
 }
 
 .profile-pic {
-    width: 44%;
+    width: 48%;
     height: 100%;
 }
 
@@ -142,16 +143,15 @@ footer {
 
 
 .bio{
-    width: 55%;
-    padding-right: 25px;
-    text-align: left;
+    padding-right: 10px;
+    text-align: center;
     margin-top: 0;
     font-size: 1.25em;
 }
 
 .project {
-        padding-bottom: 25px;
-        padding-right: 25px;
+        padding-bottom: 1px;
+        
    
 }
 
@@ -181,21 +181,16 @@ footer {
     }
 
     .contact-text {
-     margin-bottom: 50px;
+     margin-bottom: 25px;
      
 }
 
 
-.top {
-    display: none;
-}
-
 .nav-footer{
-    display: flex;
+    display: none;
     font-family: 'Open Sans', sans-serif;
     text-align: right;
     color: rgb(57, 57, 57);
-   
 }
 
 .nav-footer li {
@@ -219,7 +214,7 @@ footer {
     }
  
 
-
+}
 
 
 
@@ -235,14 +230,12 @@ Media Queries
 
 @media screen and (min-width:768px) {
 
-   * {
-       background: pink;
-   }
  
  .nav{
+     display: flex;
      width: 335px;
-     margin: initial;
-     align-items: center;
+     text-align: center;
+     
  }
  
 
@@ -259,11 +252,11 @@ Media Queries
 
  .profile-pic{
      padding-top: 0;
-     width: 44%;
+     width: 33%;
      height: auto;
  }
   .bio {
-     width: 53%;
+     width: 66%;
      padding-right: 25px;
      text-align: left;
      margin-top: 0;
@@ -273,6 +266,7 @@ Media Queries
  .project {
      float: left;
     width: 45%;
+    margin: auto;
 }
 
 
@@ -293,18 +287,20 @@ Media Queries
      margin: auto;
  }
 
+ #top{
+    display:none;
+    }
+
  .content-text {
 margin-bottom: 50px;
 
  }
- .top {
-     display: none;
- }
+
 
  .nav-footer{
     display: flex;
     font-family: 'Open Sans', sans-serif;
-    text-align: right;
+    text-align: center;
     color: rgb(57, 57, 57);
    
 }
@@ -317,6 +313,8 @@ margin-bottom: 50px;
 img:hover{
     transform: scale(1.25);
 }
+
+ 
 
 
 }
@@ -331,7 +329,6 @@ img:hover{
         display: flex;
         justify-content: space-between;
     }
-
 
 
     body {
@@ -355,7 +352,7 @@ img:hover{
  }
 
  .project{
-     margin-right: 5%;
+     margin-right: 7%;
  }
 
  .project:nth-child(even) {
@@ -364,12 +361,12 @@ img:hover{
 
  .project:nth-child(1   ),
  .project:nth-child(5) {
-    margin-right: 45px;
+    margin-right: 39px;
  }
 
  .project {
      
-     width: 28%;
+     width: 27%;
    
  }
 
@@ -398,4 +395,14 @@ img:hover{
 .contact-container{
     max-width: 25%;
 }
+
+
+
+ .top{
+        display: none;
+    }
+ 
+    #nav2 {
+        padding-left: 750px;
+    }
 }
