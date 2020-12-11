@@ -116,7 +116,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     font-weight: 700;
-    border-top: solid slatgrey top;
+    border-top: slategray;
 }
 
 .section-1 {
